@@ -4,7 +4,7 @@
 
 /* Single-direction margin declaration to establish vertical rhythm. */
 h1 {
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.7rem;
 }
 
 body {
@@ -21,7 +21,7 @@ h2 {
 }
 
 h2 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 span {
   font-size: 0.8rem;
@@ -47,8 +47,8 @@ header {
   align-items: center;
   text-align: center;
   background: url(assets/cover.jpg) no-repeat center/cover;
-  background-position-x: 0%;
-  background-position-y: 75%;
+  background-position-x: 1%;
+  background-position-y: 1%;
 }
 
 .hero-text {
@@ -60,12 +60,24 @@ header {
 }
 
 .hero-text h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #d2ba87;
   margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
+  
+  header {
+
+  background-position-x: 50%;
+  background-position-y: 1%;
+}
+  
+  span {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  
+}
   .hero-text {
     width: 60%;
     padding: 2.25rem;
@@ -96,7 +108,7 @@ header {
 
 @media (min-width: 768px) {
   .tagline {
-    text-transform: uppercase;
+    font-size: 1.4rem;
   }
 }
 
@@ -124,23 +136,21 @@ span::before {
 }
 
 @media (min-width: 768px) {
+  .date span{
+    display: block;
+  }
   .date {
-    margin-top: 1rem;
-    font-size: 1rem;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
   }
 }
 
-.date > * {
-  margin-bottom: 0.5rem;
-}
 
-.date > *:last-child {
-  margin-bottom: 0;
-}
 
-.date > span,
-.date > a {
+
+.date a {
   display: block;
+  margin-top: 1.5rem;
 }
 
 .program {
@@ -169,9 +179,20 @@ span::before {
 }
 
 @media (min-width: 768px) {
+  h2 {
+  font-size: 3rem;
+}
   .program-wrapper {
     width: 80%;
+    height: auto;
   }
+  .program p {
+  font-size: 1.3rem;
+  padding: 1rem;
+  font-style: italic;
+  color: white;
+}
+
 }
 
 footer {
