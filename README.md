@@ -1,4 +1,4 @@
- # Wedding Page :two_hearts: + :couple: = :couple_with_heart:
+ # Wedding Page :two_hearts: + :couple: = :couple_with_heart: :boom:
 My wedding landing page. Responsive optimization. I hope you find it helpful:) 
 
 ## Built With 
